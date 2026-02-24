@@ -1,4 +1,11 @@
-Below is the full English version of your README, professionally written and suitable for GitHub.
+Below is the full English version of README
+
+This project is a fix for the migration of the discontinued modules:
+
+- "Pathfinder 1e - Bestiary" (https://foundryvtt.com/packages/pf1-bestiary/)
+- "Pathfinder 1e Content" (https://foundryvtt.com/packages/pf-content/)
+
+Those modules had actors that were migrated falsely, which caused errors when: opening them. The scripts in this project fix those errors by repairing the `.db` files of the modules.
 
 ---
 
