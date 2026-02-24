@@ -1,0 +1,112 @@
+{
+  "title": "Pathfinder 1e - Bestiary",
+  "description": "<p>Full actors of all the monsters from Bestiary 1 - 6 for Pathfinder 1st Edition</p>",
+  "version": "0.1.6",
+  "authors": [
+    {
+      "name": "Noon",
+      "discord": "@justnoon",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "type": "Actor",
+      "label": "Bestiary 00+",
+      "name": "bestiary-00",
+      "system": "pf1",
+      "path": "packs/bestiary-00",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 02+",
+      "name": "bestiary-02",
+      "system": "pf1",
+      "path": "packs/bestiary-02",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 04+",
+      "name": "bestiary-04",
+      "system": "pf1",
+      "path": "packs/bestiary-04",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 06+",
+      "name": "bestiary-06",
+      "system": "pf1",
+      "path": "packs/bestiary-06",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 08+",
+      "name": "bestiary-08",
+      "system": "pf1",
+      "path": "packs/bestiary-08",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 11+",
+      "name": "bestiary-11",
+      "system": "pf1",
+      "path": "packs/bestiary-11",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 15+",
+      "name": "bestiary-15",
+      "system": "pf1",
+      "path": "packs/bestiary-15",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Actor",
+      "label": "Bestiary 20+",
+      "name": "bestiary-20",
+      "system": "pf1",
+      "path": "packs/bestiary-20",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "./artwork/bestiaryCover.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://gitlab.com/foundryvtt_pathfinder1e/pf1-bestiary/-/raw/latest/module.json",
+  "download": "https://gitlab.com/foundryvtt_pathfinder1e/pf1-bestiary/-/archive/0.1.6/pf1-bestiary-0.1.6.zip",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "id": "pf1-bestiary",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  }
+}
