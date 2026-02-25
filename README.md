@@ -184,7 +184,8 @@ python .\repair_pf_eidolon_forms_identifiers.py --backup --report
 1. Close Foundry
 2. Copy the repaired `.db` file from `packages_processed`
 3. Replace the original file in your module
-4. Restart Foundry
+4. Delete the older `.ldb` folder of the package if it exists (Foundry will not use the repaired `.db` if the `.ldb` version is present - here: https://foundryvtt.com/article/v11-leveldb-packs/?utm_source=chatgpt.com)
+5. Restart Foundry
 
 If Foundry has already migrated the pack to LevelDB:
 
