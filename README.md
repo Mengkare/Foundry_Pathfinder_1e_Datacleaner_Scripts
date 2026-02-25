@@ -1,5 +1,8 @@
 Below is the full English version of README
 
+IMPORTANT:  The folder "modules_fixed_as_full" contains the fixed versions of the whole modules for Pathfinder 1e. You can just exchange the modules in your Foundry "data/modules" folder with the ones in "modules_fixed_as_full". 
+            This way you don´t need to use the scripts at all. The scripts are only for those who want to fix the .db files on their own or want to understand how the fixing process works.
+
 This project is a fix for the migration of the discontinued modules:
 
 - "Pathfinder 1e - Bestiary" (https://foundryvtt.com/packages/pf1-bestiary/)
