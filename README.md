@@ -184,7 +184,7 @@ python .\repair_pf_eidolon_forms_identifiers.py --backup --report
 1. Close Foundry
 2. Copy the repaired `.db` file from `packages_processed`
 3. Replace the original file in your module
-4. Delete the older `.ldb` folder of the package if it exists (Foundry will not use the repaired `.db` if the `.ldb` version is present - here: https://foundryvtt.com/article/v11-leveldb-packs/?utm_source=chatgpt.com)
+4. Delete the older `.ldb` folder of the package if it exists (Foundry will not use the repaired `.db` if the `.ldb` version is present - here: https://foundryvtt.com/article/v11-leveldb-packs/?.com)
 5. Restart Foundry
 
 If Foundry has already migrated the pack to LevelDB:
@@ -213,7 +213,7 @@ These scripts are specifically designed for:
 * Pathfinder 1e system
 * Legacy NeDB `.db` compendium files
 
-They are not intended for LevelDB `.ldb` files. Those need to migrated via the automaic Foundry migration process described here (https://foundryvtt.com/article/v11-leveldb-packs/?utm_source=chatgpt.com). Always keep backups before making changes.
+They are not intended for LevelDB `.ldb` files. Those need to migrated via the automaic Foundry migration process described here (https://foundryvtt.com/article/v11-leveldb-packs/?.com). Always keep backups before making changes.
 
 
 
